@@ -18,3 +18,7 @@
         .status-off{
             color: #ff0000;
         }
+
+html{
+    padding: 0;
+}
