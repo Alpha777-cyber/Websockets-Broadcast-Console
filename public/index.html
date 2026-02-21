@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Websockets</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Websockets Broadcast Console</h1>
+    <p id="status" class="status-off">Connecting...</p>
+    
+    <form id="message-form">
+        <input type="text" id="message-input" placeholder="Send to cargo.." required>
+        <button type="submit">Deploy Message</button>
+    </form>
+
+    <h3>Live Stream Logs:</h3>
+    <pre id="log"></pre>
+
+    <script src="/sockets.js" >
+        
+    </script>
+</body>
+</html>

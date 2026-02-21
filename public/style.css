@@ -1,0 +1,20 @@
+ body{
+            font-size: sans-serf;
+            padding: 20px;
+            background: #121212;
+            color: #fff;
+
+        }
+        #log{
+            background: #000;
+            padding: 10px;
+            height: 300px;
+            overflow-y: scroll;
+            border: 1px solid #333;
+        }
+        .status-on{
+            color: #00ff00;
+        }
+        .status-off{
+            color: #ff0000;
+        }
