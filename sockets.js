@@ -5,6 +5,7 @@ const input = document.getElementById("message-input");
 //1.initiate the handshake
 //the firtst step
 const socket = new WebSocket('ws://localhost:8000');
+console.log("first step making a handshake");
 
 const appendLog = (label,message)=>{
     const entry =  `${new Date().toLocaleTimeString()} ${label} ${message} \n`
