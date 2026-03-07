@@ -3,6 +3,7 @@ const log = document.getElementById("log");
 const input = document.getElementById("message-input");
         
 //1.initiate the handshake
+//the firtst step
 const socket = new WebSocket('ws://localhost:8000');
 
 const appendLog = (label,message)=>{
