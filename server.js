@@ -2,6 +2,7 @@ import { WebSocketServer,WebSocket } from "ws";
 
 const wss = new WebSocketServer({port:8000});
 
+
 //0:connecting
 //1:Open
 //2.Close
